@@ -1,0 +1,26 @@
+.task-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-input {
+  width: 85%;
+  border-radius: 11px;
+  padding: 0.6rem;
+  border: 3px solid rgb(62, 22, 113);
+  background: transparent;
+  color: rgb(255, 255, 255);
+}
+
+.add-task {
+  border-radius: 11px;
+  padding: 1.1rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(158, 120, 207);
+  /* font: inherit; */
+}
+
+.task-input:focus {
+  outline: none;
+}

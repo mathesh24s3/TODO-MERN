@@ -1,0 +1,28 @@
+main {
+  max-width: 25rem;
+  color: rgb(255, 255, 255);
+  margin: 3rem auto;
+}
+
+section {
+  margin: 3.5rem 0;
+}
+
+.section-label {
+  font-size: 1rem;
+  margin-block: 0 1rem;
+  font-weight: 500;
+}
+
+.tasks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.hidden {
+  transform: translateX(50%);
+  opacity: 0;
+}
